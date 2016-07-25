@@ -1,0 +1,368 @@
+<LinearLayout
+    android:id="@+id/LlMain_layer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/profile_background"
+        android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/profile_image"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:orientation="horizontal">
+
+            <com.quorg.widgets.GGEditViewRobotoM
+                android:id="@+id/txtFirstName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_marginRight="2dp"
+                android:layout_weight="0.5"
+                android:textSize="@dimen/_16sdp"
+                android:background="@null"
+                android:text="Sanjay"/>
+
+            <com.quorg.widgets.GGEditViewRobotoM
+                android:id="@+id/txtLastName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_marginLeft="2dp"
+                android:gravity="left"
+                android:textSize="@dimen/_16sdp"
+                android:background="@null"
+                android:text="Malik"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.quorg.widgets.GGEditViewRobotoL
+                android:id="@+id/txtPrpfileTag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:gravity="center"
+                android:textSize="@dimen/_14sdp"
+                android:background="@null"
+                android:text="Lead Structural at Syndicate, Gurgaon"/>
+
+            <com.quorg.widgets.GGEditViewRobotoL
+                android:id="@+id/txtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:gravity="center"
+                android:textSize="@dimen/_14sdp"
+                android:background="@null"
+                android:text="sanjay.malik@gmail.com"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+        <com.quorg.widgets.GGEditViewRobotoL
+            android:id="@+id/txtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:gravity="center"
+            android:textSize="@dimen/_14sdp"
+            android:background="@null"
+            android:text="+91-8807767467"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                 <com.quorg.widgets.GGTextViewRobotoM
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="2dp"
+                     android:layout_marginRight="2dp"
+                     android:gravity="left"
+                     android:textSize="@dimen/_12sdp"
+                     android:textColor="@color/text_label_color"
+                     android:layout_margin="10dp"
+                     android:background="@null"
+                     android:text="CURRENT"/>
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:weightSum="10"
+                     android:gravity="center"
+                     android:paddingLeft="10dp"
+                     android:background="@drawable/sadow_row"
+                     android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/settings"/>
+
+                     <LinearLayout
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:gravity="center"
+                         android:layout_weight="6.5"
+                         android:layout_margin="10dp"
+                         android:orientation="vertical">
+
+                         <com.quorg.widgets.GGEditViewRobotoL
+                             android:id="@+id/edtPos"
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:gravity="left"
+                             android:textSize="@dimen/_12sdp"
+                             android:background="@null"
+                             android:text="Senior Lead"/>
+
+                         <com.quorg.widgets.GGEditViewRobotoL
+                             android:id="@+id/edtCompany"
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:gravity="left"
+                             android:textSize="@dimen/_12sdp"
+                             android:lineSpacingMultiplier="1"
+                             android:background="@null"
+                             android:text="Lead Structural at Syndicate, Gurgaon"/>
+                     </LinearLayout>
+
+                     <LinearLayout
+                         android:layout_width="0dp"
+                         android:layout_height="match_parent"
+                         android:gravity="center"
+                         android:layout_weight="2.5"
+                         android:weightSum="3"
+                         android:layout_marginBottom="10dp"
+                         android:layout_marginTop="10dp"
+                         android:orientation="vertical">
+
+                         <com.quorg.widgets.GGTextViewRobotoL
+                             android:layout_width="match_parent"
+                             android:layout_height="0dp"
+                             android:gravity=""
+                             android:textSize="@dimen/_12sdp"
+                             android:background="@null"
+                             android:layout_weight="1.5"
+                             android:text=""/>
+
+                         <com.quorg.widgets.GGEditViewRobotoM
+                             android:id="@+id/edtSince"
+                             android:layout_width="match_parent"
+                             android:layout_height="0dp"
+                             android:gravity=""
+                             android:layout_weight="1.5"
+                             android:textSize="@dimen/_12sdp"
+                             android:background="@null"
+                             android:textColor="@color/text_color"
+                             android:text="SINCE 2014"/>
+
+                     </LinearLayout>
+                 </LinearLayout>
+
+                 <com.quorg.widgets.GGTextViewRobotoM
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="2dp"
+                     android:layout_marginRight="2dp"
+                     android:gravity="left"
+                     android:textSize="@dimen/_12sdp"
+                     android:textColor="@color/text_label_color"
+                     android:layout_margin="10dp"
+                     android:background="@null"
+                     android:text="PREVIOUS"/>
+
+                <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:weightSum="10"
+                     android:gravity="center"
+                     android:paddingLeft="10dp"
+                     android:background="@drawable/sadow_row"
+                     android:orientation="horizontal">
+
+                     <ImageView
+                         android:layout_width="0dp"
+                         android:layout_height="match_parent"
+                         android:layout_weight="1"
+                         android:src="@drawable/settings"/>
+
+                     <LinearLayout
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:gravity="center"
+                         android:layout_weight="6.5"
+                         android:layout_margin="10dp"
+                         android:orientation="vertical">
+
+                         <com.quorg.widgets.GGEditViewRobotoL
+                             android:id="@+id/edtPosPreOne"
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:gravity="left"
+                             android:textSize="@dimen/_12sdp"
+                             android:background="@null"
+                             android:text="Senior Lead"/>
+
+                         <com.quorg.widgets.GGEditViewRobotoL
+                             android:id="@+id/edtCompanyPreOne"
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:gravity="left"
+                             android:textSize="@dimen/_12sdp"
+                             android:lineSpacingMultiplier="1"
+                             android:background="@null"
+                             android:text="Lead Structural at Syndicate, Gurgaon"/>
+                     </LinearLayout>
+
+                     <LinearLayout
+                         android:layout_width="0dp"
+                         android:layout_height="match_parent"
+                         android:gravity="center"
+                         android:layout_weight="2.5"
+                         android:weightSum="3"
+                         android:layout_marginBottom="10dp"
+                         android:layout_marginTop="10dp"
+                         android:orientation="vertical">
+
+                         <com.quorg.widgets.GGTextViewRobotoL
+                             android:layout_width="match_parent"
+                             android:layout_height="0dp"
+                             android:gravity=""
+                             android:textSize="@dimen/_12sdp"
+                             android:background="@null"
+                             android:layout_weight="1.5"
+                             android:text=""/>
+
+                         <com.quorg.widgets.GGEditViewRobotoM
+                             android:id="@+id/edtSincePreOne"
+                             android:layout_width="match_parent"
+                             android:layout_height="0dp"
+                             android:gravity=""
+                             android:layout_weight="1.5"
+                             android:textSize="@dimen/_12sdp"
+                             android:background="@null"
+                             android:textColor="@color/text_color"
+                             android:text="2012-2014"/>
+
+                     </LinearLayout>
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:weightSum="10"
+                     android:gravity="center"
+                     android:paddingLeft="10dp"
+                     android:layout_marginTop="15dp"
+
+                     android:background="@drawable/sadow_row"
+                     android:orientation="horizontal">
+
+                     <ImageView
+                         android:layout_width="0dp"
+                         android:layout_height="match_parent"
+                         android:layout_weight="1"
+                         android:src="@drawable/settings"/>
+
+                     <LinearLayout
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:gravity="center"
+                         android:layout_weight="6.5"
+                         android:layout_margin="10dp"
+                         android:orientation="vertical">
+
+                         <com.quorg.widgets.GGEditViewRobotoL
+                             android:id="@+id/edtPosPreStart"
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:gravity="left"
+                             android:textSize="@dimen/_12sdp"
+                             android:background="@null"
+                             android:text="Senior Lead"/>
+
+
+
+                         <com.quorg.widgets.GGEditViewRobotoL
+                             android:id="@+id/edtCompanyPreStart"
+                             android:layout_width="match_parent"
+                             android:layout_height="match_parent"
+                             android:gravity="left"
+                             android:textSize="@dimen/_12sdp"
+                             android:lineSpacingMultiplier="1"
+                             android:background="@null"
+                             android:text="Lead Structural at Syndicate, Gurgaon"/>
+                     </LinearLayout>
+
+                     <LinearLayout
+                         android:layout_width="0dp"
+                         android:layout_height="match_parent"
+                         android:gravity="center"
+                         android:layout_weight="2.5"
+                         android:weightSum="3"
+                         android:layout_marginBottom="10dp"
+                         android:layout_marginTop="10dp"
+                         android:orientation="vertical">
+
+                         <com.quorg.widgets.GGTextViewRobotoL
+                             android:layout_width="match_parent"
+                             android:layout_height="0dp"
+                             android:gravity=""
+                             android:textSize="@dimen/_12sdp"
+                             android:background="@null"
+                             android:layout_weight="1.5"
+                             android:text=""/>
+
+                         <com.quorg.widgets.GGEditViewRobotoM
+                             android:id="@+id/edtSincePreStart"
+                             android:layout_width="match_parent"
+                             android:layout_height="0dp"
+                             android:gravity=""
+                             android:layout_weight="1.5"
+                             android:textSize="@dimen/_12sdp"
+                             android:background="@null"
+                             android:textColor="@color/text_color"
+                             android:text="2008-2012"/>
+                     </LinearLayout>
+                 </LinearLayout>
+        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,1 @@
+include ':app', ':ptr-lib', ':Sliding_menu_lib', ':linkedin-sdk'

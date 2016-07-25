@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "163309290470",
+    "project_id": "qaurg-1380"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163309290470:android:e0b8a48e69c1b4ab",
+        "android_client_info": {
+          "package_name": "com.quorg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163309290470-5pb309hajd0b3269ib0mlr1gnuo0laom.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.quorg",
+            "certificate_hash": "6A2F5796A49453C247FC2FF9E9C4F3E2AFBD43FD"
+          }
+        },
+        {
+          "client_id": "163309290470-7ophvt4ibjqbj478thic1d4vjr0slm4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-BpAxuLqJZwTd6x9cT5nKu0jAWNwr3rU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

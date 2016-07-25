@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:homeAsUpIndicator">@drawable/menu</item>
+    </style>
+
+
+    <style name="spinnerMaterialStyle">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="android:windowAnimationStyle">@style/animation</item>-->
+
+    </style>
+
+
+
+</resources>
